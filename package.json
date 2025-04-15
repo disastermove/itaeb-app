@@ -11,10 +11,12 @@
     "build": "eas build --profile production --platform android"
   },
   "dependencies": {
+    "@babel/runtime": "^7.27.0",
     "@emailjs/browser": "^4.4.1",
     "@emailjs/react-native": "^4.2.2",
     "@expo/metro-runtime": "~4.0.1",
     "@expo/react-native-action-sheet": "^4.1.1",
+    "@expo/vector-icons": "^14.1.0",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-masked-view/masked-view": "0.3.2",
     "@react-navigation/bottom-tabs": "^7.3.9",
